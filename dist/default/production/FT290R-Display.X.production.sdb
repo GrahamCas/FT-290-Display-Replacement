@@ -1,0 +1,404 @@
+[p LITE_MODE AUTOSTATIC PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F1937 ]
+[d frameptr 6 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\pic\eeprom.c
+[v _eecpymem eecpymem `(v  1 e 0 0 ]
+"39
+[v _memcpyee memcpyee `(v  1 e 0 0 ]
+"60 D:\wrm\zs1ke\FT-290R\FT290R-Display.X\main.c
+[v _lcd_init lcd_init `(v  1 e 0 0 ]
+"124
+[v _LCD LCD `(v  1 e 0 0 ]
+[v i1_LCD LCD `(v  1 e 0 0 ]
+"292
+[v _isr isr `II(v  1 e 0 0 ]
+"364
+[v _main main `(i  1 e 2 0 ]
+"337 C:\Program Files (x86)\Microchip\xc8\v1.34\include\pic16f1937.h
+[v _INTCON INTCON `VEuc  1 e 1 @11 ]
+"536
+[v _PORTC PORTC `VEuc  1 e 1 @14 ]
+"597
+[v _PORTD PORTD `VEuc  1 e 1 @15 ]
+"658
+[v _PORTE PORTE `VEuc  1 e 1 @16 ]
+"695
+[v _PIR1 PIR1 `VEuc  1 e 1 @17 ]
+"756
+[v _PIR2 PIR2 `VEuc  1 e 1 @18 ]
+"812
+[v _PIR3 PIR3 `VEuc  1 e 1 @19 ]
+"1273
+[v _TRISA TRISA `VEuc  1 e 1 @140 ]
+"1334
+[v _TRISB TRISB `VEuc  1 e 1 @141 ]
+"1395
+[v _TRISC TRISC `VEuc  1 e 1 @142 ]
+"1456
+[v _TRISD TRISD `VEuc  1 e 1 @143 ]
+"1517
+[v _TRISE TRISE `VEuc  1 e 1 @144 ]
+"1554
+[v _PIE1 PIE1 `VEuc  1 e 1 @145 ]
+"1615
+[v _PIE2 PIE2 `VEuc  1 e 1 @146 ]
+"1671
+[v _PIE3 PIE3 `VEuc  1 e 1 @147 ]
+"1963
+[v _OSCCON OSCCON `VEuc  1 e 1 @153 ]
+"3252
+[v _ANSELA ANSELA `VEuc  1 e 1 @396 ]
+"3309
+[v _ANSELB ANSELB `VEuc  1 e 1 @397 ]
+"3366
+[v _ANSELD ANSELD `VEuc  1 e 1 @399 ]
+"3435
+[v _ANSELE ANSELE `VEuc  1 e 1 @400 ]
+"5939
+[v _IOCBF IOCBF `VEuc  1 e 1 @918 ]
+"6224
+[v _LCDCON LCDCON `VEuc  1 e 1 @1937 ]
+"6294
+[v _LCDPS LCDPS `VEuc  1 e 1 @1938 ]
+"6363
+[v _LCDREF LCDREF `VEuc  1 e 1 @1939 ]
+"6414
+[v _LCDCST LCDCST `VEuc  1 e 1 @1940 ]
+"6453
+[v _LCDRL LCDRL `VEuc  1 e 1 @1941 ]
+"6530
+[v _LCDSE0 LCDSE0 `VEuc  1 e 1 @1944 ]
+"6591
+[v _LCDSE1 LCDSE1 `VEuc  1 e 1 @1945 ]
+"6652
+[v _LCDSE2 LCDSE2 `VEuc  1 e 1 @1946 ]
+"6713
+[v _LCDDATA0 LCDDATA0 `VEuc  1 e 1 @1952 ]
+"6774
+[v _LCDDATA1 LCDDATA1 `VEuc  1 e 1 @1953 ]
+"6835
+[v _LCDDATA2 LCDDATA2 `VEuc  1 e 1 @1954 ]
+"6896
+[v _LCDDATA3 LCDDATA3 `VEuc  1 e 1 @1955 ]
+"6957
+[v _LCDDATA4 LCDDATA4 `VEuc  1 e 1 @1956 ]
+"7018
+[v _LCDDATA5 LCDDATA5 `VEuc  1 e 1 @1957 ]
+"7079
+[v _LCDDATA6 LCDDATA6 `VEuc  1 e 1 @1958 ]
+"7140
+[v _LCDDATA7 LCDDATA7 `VEuc  1 e 1 @1959 ]
+"7201
+[v _LCDDATA8 LCDDATA8 `VEuc  1 e 1 @1960 ]
+"7262
+[v _LCDDATA9 LCDDATA9 `VEuc  1 e 1 @1961 ]
+"7323
+[v _LCDDATA10 LCDDATA10 `VEuc  1 e 1 @1962 ]
+"7384
+[v _LCDDATA11 LCDDATA11 `VEuc  1 e 1 @1963 ]
+"8070
+[v _GIE GIE `VEb  1 e 0 @95 ]
+"8092
+[v _IOCBF2 IOCBF2 `VEb  1 e 0 @7346 ]
+"8094
+[v _IOCBF3 IOCBF3 `VEb  1 e 0 @7347 ]
+"8108
+[v _IOCBN2 IOCBN2 `VEb  1 e 0 @7338 ]
+"8110
+[v _IOCBN3 IOCBN3 `VEb  1 e 0 @7339 ]
+"8124
+[v _IOCBP2 IOCBP2 `VEb  1 e 0 @7330 ]
+"8126
+[v _IOCBP3 IOCBP3 `VEb  1 e 0 @7331 ]
+"8136
+[v _IOCIE IOCIE `VEb  1 e 0 @91 ]
+"8138
+[v _IOCIF IOCIF `VEb  1 e 0 @88 ]
+"8228
+[v _LCDEN LCDEN `VEb  1 e 0 @15503 ]
+"8230
+[v _LCDIE LCDIE `VEb  1 e 0 @1170 ]
+"8232
+[v _LCDIF LCDIF `VEb  1 e 0 @146 ]
+"8348
+[v _PEIE PEIE `VEb  1 e 0 @94 ]
+"8404
+[v _RB1 RB1 `VEb  1 e 0 @105 ]
+"8408
+[v _RB3 RB3 `VEb  1 e 0 @107 ]
+"8418
+[v _RC0 RC0 `VEb  1 e 0 @112 ]
+"8420
+[v _RC1 RC1 `VEb  1 e 0 @113 ]
+"8446
+[v _RD1 RD1 `VEb  1 e 0 @121 ]
+"8448
+[v _RD2 RD2 `VEb  1 e 0 @122 ]
+"8538
+[v _SEG0COM0 SEG0COM0 `VEb  1 e 0 @15616 ]
+"8540
+[v _SEG0COM1 SEG0COM1 `VEb  1 e 0 @15640 ]
+"8542
+[v _SEG0COM2 SEG0COM2 `VEb  1 e 0 @15664 ]
+"8544
+[v _SEG0COM3 SEG0COM3 `VEb  1 e 0 @15688 ]
+"8546
+[v _SEG10COM0 SEG10COM0 `VEb  1 e 0 @15626 ]
+"8548
+[v _SEG10COM1 SEG10COM1 `VEb  1 e 0 @15650 ]
+"8552
+[v _SEG10COM3 SEG10COM3 `VEb  1 e 0 @15698 ]
+"8554
+[v _SEG11COM0 SEG11COM0 `VEb  1 e 0 @15627 ]
+"8556
+[v _SEG11COM1 SEG11COM1 `VEb  1 e 0 @15651 ]
+"8558
+[v _SEG11COM2 SEG11COM2 `VEb  1 e 0 @15675 ]
+"8560
+[v _SEG11COM3 SEG11COM3 `VEb  1 e 0 @15699 ]
+"8562
+[v _SEG12COM0 SEG12COM0 `VEb  1 e 0 @15628 ]
+"8564
+[v _SEG12COM1 SEG12COM1 `VEb  1 e 0 @15652 ]
+"8566
+[v _SEG12COM2 SEG12COM2 `VEb  1 e 0 @15676 ]
+"8568
+[v _SEG12COM3 SEG12COM3 `VEb  1 e 0 @15700 ]
+"8570
+[v _SEG13COM0 SEG13COM0 `VEb  1 e 0 @15629 ]
+"8572
+[v _SEG13COM1 SEG13COM1 `VEb  1 e 0 @15653 ]
+"8574
+[v _SEG13COM2 SEG13COM2 `VEb  1 e 0 @15677 ]
+"8576
+[v _SEG13COM3 SEG13COM3 `VEb  1 e 0 @15701 ]
+"8578
+[v _SEG14COM0 SEG14COM0 `VEb  1 e 0 @15630 ]
+"8580
+[v _SEG14COM1 SEG14COM1 `VEb  1 e 0 @15654 ]
+"8582
+[v _SEG14COM2 SEG14COM2 `VEb  1 e 0 @15678 ]
+"8584
+[v _SEG14COM3 SEG14COM3 `VEb  1 e 0 @15702 ]
+"8586
+[v _SEG15COM0 SEG15COM0 `VEb  1 e 0 @15631 ]
+"8588
+[v _SEG15COM1 SEG15COM1 `VEb  1 e 0 @15655 ]
+"8590
+[v _SEG15COM2 SEG15COM2 `VEb  1 e 0 @15679 ]
+"8592
+[v _SEG15COM3 SEG15COM3 `VEb  1 e 0 @15703 ]
+"8594
+[v _SEG16COM0 SEG16COM0 `VEb  1 e 0 @15632 ]
+"8596
+[v _SEG16COM1 SEG16COM1 `VEb  1 e 0 @15656 ]
+"8600
+[v _SEG16COM3 SEG16COM3 `VEb  1 e 0 @15704 ]
+"8602
+[v _SEG17COM0 SEG17COM0 `VEb  1 e 0 @15633 ]
+"8604
+[v _SEG17COM1 SEG17COM1 `VEb  1 e 0 @15657 ]
+"8606
+[v _SEG17COM2 SEG17COM2 `VEb  1 e 0 @15681 ]
+"8608
+[v _SEG17COM3 SEG17COM3 `VEb  1 e 0 @15705 ]
+"8610
+[v _SEG18COM0 SEG18COM0 `VEb  1 e 0 @15634 ]
+"8612
+[v _SEG18COM1 SEG18COM1 `VEb  1 e 0 @15658 ]
+"8614
+[v _SEG18COM2 SEG18COM2 `VEb  1 e 0 @15682 ]
+"8616
+[v _SEG18COM3 SEG18COM3 `VEb  1 e 0 @15706 ]
+"8618
+[v _SEG19COM0 SEG19COM0 `VEb  1 e 0 @15635 ]
+"8620
+[v _SEG19COM1 SEG19COM1 `VEb  1 e 0 @15659 ]
+"8622
+[v _SEG19COM2 SEG19COM2 `VEb  1 e 0 @15683 ]
+"8624
+[v _SEG19COM3 SEG19COM3 `VEb  1 e 0 @15707 ]
+"8626
+[v _SEG1COM0 SEG1COM0 `VEb  1 e 0 @15617 ]
+"8628
+[v _SEG1COM1 SEG1COM1 `VEb  1 e 0 @15641 ]
+"8630
+[v _SEG1COM2 SEG1COM2 `VEb  1 e 0 @15665 ]
+"8632
+[v _SEG1COM3 SEG1COM3 `VEb  1 e 0 @15689 ]
+"8634
+[v _SEG20COM0 SEG20COM0 `VEb  1 e 0 @15636 ]
+"8636
+[v _SEG20COM1 SEG20COM1 `VEb  1 e 0 @15660 ]
+"8638
+[v _SEG20COM2 SEG20COM2 `VEb  1 e 0 @15684 ]
+"8640
+[v _SEG20COM3 SEG20COM3 `VEb  1 e 0 @15708 ]
+"8642
+[v _SEG21COM0 SEG21COM0 `VEb  1 e 0 @15637 ]
+"8644
+[v _SEG21COM1 SEG21COM1 `VEb  1 e 0 @15661 ]
+"8648
+[v _SEG21COM3 SEG21COM3 `VEb  1 e 0 @15709 ]
+"8650
+[v _SEG22COM0 SEG22COM0 `VEb  1 e 0 @15638 ]
+"8652
+[v _SEG22COM1 SEG22COM1 `VEb  1 e 0 @15662 ]
+"8658
+[v _SEG23COM0 SEG23COM0 `VEb  1 e 0 @15639 ]
+"8660
+[v _SEG23COM1 SEG23COM1 `VEb  1 e 0 @15663 ]
+"8662
+[v _SEG23COM2 SEG23COM2 `VEb  1 e 0 @15687 ]
+"8664
+[v _SEG23COM3 SEG23COM3 `VEb  1 e 0 @15711 ]
+"8666
+[v _SEG2COM0 SEG2COM0 `VEb  1 e 0 @15618 ]
+"8668
+[v _SEG2COM1 SEG2COM1 `VEb  1 e 0 @15642 ]
+"8672
+[v _SEG2COM3 SEG2COM3 `VEb  1 e 0 @15690 ]
+"8674
+[v _SEG3COM0 SEG3COM0 `VEb  1 e 0 @15619 ]
+"8676
+[v _SEG3COM1 SEG3COM1 `VEb  1 e 0 @15643 ]
+"8680
+[v _SEG3COM3 SEG3COM3 `VEb  1 e 0 @15691 ]
+"8682
+[v _SEG4COM0 SEG4COM0 `VEb  1 e 0 @15620 ]
+"8684
+[v _SEG4COM1 SEG4COM1 `VEb  1 e 0 @15644 ]
+"8686
+[v _SEG4COM2 SEG4COM2 `VEb  1 e 0 @15668 ]
+"8688
+[v _SEG4COM3 SEG4COM3 `VEb  1 e 0 @15692 ]
+"8690
+[v _SEG5COM0 SEG5COM0 `VEb  1 e 0 @15621 ]
+"8692
+[v _SEG5COM1 SEG5COM1 `VEb  1 e 0 @15645 ]
+"8694
+[v _SEG5COM2 SEG5COM2 `VEb  1 e 0 @15669 ]
+"8696
+[v _SEG5COM3 SEG5COM3 `VEb  1 e 0 @15693 ]
+"8698
+[v _SEG6COM0 SEG6COM0 `VEb  1 e 0 @15622 ]
+"8700
+[v _SEG6COM1 SEG6COM1 `VEb  1 e 0 @15646 ]
+"8702
+[v _SEG6COM2 SEG6COM2 `VEb  1 e 0 @15670 ]
+"8704
+[v _SEG6COM3 SEG6COM3 `VEb  1 e 0 @15694 ]
+"8706
+[v _SEG7COM0 SEG7COM0 `VEb  1 e 0 @15623 ]
+"8708
+[v _SEG7COM1 SEG7COM1 `VEb  1 e 0 @15647 ]
+"8710
+[v _SEG7COM2 SEG7COM2 `VEb  1 e 0 @15671 ]
+"8712
+[v _SEG7COM3 SEG7COM3 `VEb  1 e 0 @15695 ]
+"8714
+[v _SEG8COM0 SEG8COM0 `VEb  1 e 0 @15624 ]
+"8716
+[v _SEG8COM1 SEG8COM1 `VEb  1 e 0 @15648 ]
+"8718
+[v _SEG8COM2 SEG8COM2 `VEb  1 e 0 @15672 ]
+"8720
+[v _SEG8COM3 SEG8COM3 `VEb  1 e 0 @15696 ]
+"8722
+[v _SEG9COM0 SEG9COM0 `VEb  1 e 0 @15625 ]
+"8724
+[v _SEG9COM1 SEG9COM1 `VEb  1 e 0 @15649 ]
+"8726
+[v _SEG9COM2 SEG9COM2 `VEb  1 e 0 @15673 ]
+"8728
+[v _SEG9COM3 SEG9COM3 `VEb  1 e 0 @15697 ]
+"8966
+[v _TRISB1 TRISB1 `VEb  1 e 0 @1129 ]
+"8968
+[v _TRISB2 TRISB2 `VEb  1 e 0 @1130 ]
+"8970
+[v _TRISB3 TRISB3 `VEb  1 e 0 @1131 ]
+"9018
+[v _TRISE3 TRISE3 `VEb  1 e 0 @1155 ]
+"9056
+[v _WA WA `VEb  1 e 0 @15508 ]
+"9090
+[v _WPUE3 WPUE3 `VEb  1 e 0 @4227 ]
+"289 D:\wrm\zs1ke\FT-290R\FT290R-Display.X\main.c
+[v _index index `i  1 e 2 0 ]
+"290
+[v _disp disp `[12]uc  1 e 12 0 ]
+"364
+[v _main main `(i  1 e 2 0 ]
+{
+"366
+[v main@i i `VEl  1 a 4 44 ]
+"367
+[v main@k k `VEl  1 a 4 38 ]
+[v main@j j `VEl  1 a 4 34 ]
+"369
+[v main@toggle toggle `i  1 a 2 42 ]
+"491
+} 0
+"60
+[v _lcd_init lcd_init `(v  1 e 0 0 ]
+{
+"122
+} 0
+"124
+[v _LCD LCD `(v  1 e 0 0 ]
+{
+"126
+[v LCD@G G `s  1 a 2 28 ]
+[v LCD@M M `s  1 a 2 26 ]
+[v LCD@F F `s  1 a 2 24 ]
+[v LCD@A A `s  1 a 2 22 ]
+[v LCD@D D `s  1 a 2 20 ]
+[v LCD@E E `s  1 a 2 18 ]
+[v LCD@C C `s  1 a 2 16 ]
+[v LCD@B B `s  1 a 2 14 ]
+[v LCD@K K `s  1 a 2 12 ]
+[v LCD@N N `s  1 a 2 10 ]
+[v LCD@Q Q `s  1 a 2 8 ]
+[v LCD@H H `s  1 a 2 6 ]
+[v LCD@P P `s  1 a 2 4 ]
+[v LCD@J J `s  1 a 2 2 ]
+[v LCD@DP DP `s  1 a 2 0 ]
+"124
+[v LCD@digit digit `i  1 p 2 30 ]
+[v LCD@value value `i  1 p 2 32 ]
+"267
+} 0
+"292
+[v _isr isr `II(v  1 e 0 0 ]
+{
+"362
+} 0
+"124
+[v i1_LCD LCD `(v  1 e 0 0 ]
+{
+[v i1LCD@G LCD `s  1 a 2 28 ]
+[v i1LCD@M LCD `s  1 a 2 26 ]
+[v i1LCD@F LCD `s  1 a 2 24 ]
+[v i1LCD@A LCD `s  1 a 2 22 ]
+[v i1LCD@D LCD `s  1 a 2 20 ]
+[v i1LCD@E LCD `s  1 a 2 18 ]
+[v i1LCD@C LCD `s  1 a 2 16 ]
+[v i1LCD@B LCD `s  1 a 2 14 ]
+[v i1LCD@K LCD `s  1 a 2 12 ]
+[v i1LCD@N LCD `s  1 a 2 10 ]
+[v i1LCD@Q LCD `s  1 a 2 8 ]
+[v i1LCD@H LCD `s  1 a 2 6 ]
+[v i1LCD@P LCD `s  1 a 2 4 ]
+[v i1LCD@J LCD `s  1 a 2 2 ]
+[v i1LCD@DP LCD `s  1 a 2 0 ]
+[v i1LCD@digit digit `i  1 p 2 0 ]
+[v i1LCD@value value `i  1 p 2 2 ]
+"267
+} 0
